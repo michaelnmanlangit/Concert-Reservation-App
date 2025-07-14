@@ -42,7 +42,9 @@
             // lblArtistName
             // 
             this.lblArtistName.AutoSize = true;
+            this.lblArtistName.BackColor = System.Drawing.Color.Transparent;
             this.lblArtistName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArtistName.ForeColor = System.Drawing.SystemColors.Info;
             this.lblArtistName.Location = new System.Drawing.Point(64, 47);
             this.lblArtistName.Name = "lblArtistName";
             this.lblArtistName.Size = new System.Drawing.Size(165, 25);
@@ -60,27 +62,36 @@
             // lblDate
             // 
             this.lblDate.AutoSize = true;
+            this.lblDate.BackColor = System.Drawing.Color.Transparent;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.SystemColors.Info;
             this.lblDate.Location = new System.Drawing.Point(104, 90);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(70, 13);
+            this.lblDate.Size = new System.Drawing.Size(83, 13);
             this.lblDate.TabIndex = 2;
             this.lblDate.Text = "July 18, 2025";
             // 
             // lblTime
             // 
             this.lblTime.AutoSize = true;
+            this.lblTime.BackColor = System.Drawing.Color.Transparent;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.SystemColors.Info;
             this.lblTime.Location = new System.Drawing.Point(118, 115);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(47, 13);
+            this.lblTime.Size = new System.Drawing.Size(54, 13);
             this.lblTime.TabIndex = 3;
             this.lblTime.Text = "3:00 PM";
             // 
             // lblPlace
             // 
             this.lblPlace.AutoSize = true;
+            this.lblPlace.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlace.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlace.ForeColor = System.Drawing.SystemColors.Info;
             this.lblPlace.Location = new System.Drawing.Point(105, 138);
             this.lblPlace.Name = "lblPlace";
-            this.lblPlace.Size = new System.Drawing.Size(71, 13);
+            this.lblPlace.Size = new System.Drawing.Size(80, 13);
             this.lblPlace.TabIndex = 4;
             this.lblPlace.Text = "MOA ARENA";
             this.lblPlace.Click += new System.EventHandler(this.lblPlace_Click);
@@ -88,10 +99,12 @@
             // lblVenue
             // 
             this.lblVenue.AutoSize = true;
-            this.lblVenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVenue.Location = new System.Drawing.Point(34, 178);
+            this.lblVenue.BackColor = System.Drawing.Color.Transparent;
+            this.lblVenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVenue.ForeColor = System.Drawing.SystemColors.Info;
+            this.lblVenue.Location = new System.Drawing.Point(54, 178);
             this.lblVenue.Name = "lblVenue";
-            this.lblVenue.Size = new System.Drawing.Size(81, 24);
+            this.lblVenue.Size = new System.Drawing.Size(87, 24);
             this.lblVenue.TabIndex = 5;
             this.lblVenue.Text = "VENUE:";
             // 
@@ -117,6 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Concert_Reservation_App.Properties.Resources._515922623_2144541529399616_1072195561129697262_n;
             this.ClientSize = new System.Drawing.Size(309, 561);
             this.Controls.Add(this.btnSelectSeat);
             this.Controls.Add(this.pictureBox1);

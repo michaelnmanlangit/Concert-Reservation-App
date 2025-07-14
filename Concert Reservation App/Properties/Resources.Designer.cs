@@ -63,6 +63,16 @@ namespace Concert_Reservation_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _515922623_2144541529399616_1072195561129697262_n {
+            get {
+                object obj = ResourceManager.GetObject("515922623_2144541529399616_1072195561129697262_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled___Copy {
             get {
                 object obj = ResourceManager.GetObject("Untitled - Copy", resourceCulture);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Concert_Reservation_App
 {
-    public partial class Form12 : Form
+    public partial class Form11 : Form
     {
-        public Form12()
+        public Form11()
         {
             InitializeComponent();
         }

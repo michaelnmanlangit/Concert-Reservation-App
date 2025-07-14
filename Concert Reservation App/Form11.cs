@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Concert_Reservation_App
 {
-    public partial class Form11 : Form
+    public partial class Form10 : Form
     {
-        public Form11()
+        public Form10()
         {
             InitializeComponent();
         }
@@ -33,6 +33,16 @@ namespace Concert_Reservation_App
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Concert_Reservation_App
 {
-    public partial class Form3 : Form
+    public partial class Form12 : Form
     {
-        public Form3()
+        public Form12()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

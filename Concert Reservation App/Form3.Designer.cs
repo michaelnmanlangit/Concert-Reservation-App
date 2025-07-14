@@ -63,147 +63,164 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(26, 25);
+            this.textBox1.Location = new System.Drawing.Point(20, 20);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(75, 30);
+            this.textBox1.Size = new System.Drawing.Size(57, 26);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "LOGO";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // comboBox1
             // 
             this.comboBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(68, 111);
+            this.comboBox1.Location = new System.Drawing.Point(51, 90);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(255, 33);
+            this.comboBox1.Size = new System.Drawing.Size(192, 28);
             this.comboBox1.TabIndex = 3;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(68, 186);
+            this.pictureBox1.Location = new System.Drawing.Point(51, 151);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 140);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 114);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(223, 186);
+            this.pictureBox2.Location = new System.Drawing.Point(167, 151);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 140);
+            this.pictureBox2.Size = new System.Drawing.Size(75, 114);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(342, 25);
+            this.pictureBox3.Location = new System.Drawing.Point(256, 20);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(40, 30);
+            this.pictureBox3.Size = new System.Drawing.Size(30, 24);
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(296, 25);
+            this.pictureBox4.Location = new System.Drawing.Point(222, 20);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(40, 30);
+            this.pictureBox4.Size = new System.Drawing.Size(30, 24);
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(68, 346);
+            this.textBox2.Location = new System.Drawing.Point(51, 281);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(76, 20);
             this.textBox2.TabIndex = 8;
             this.textBox2.Text = "Artist Name";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(223, 346);
+            this.textBox3.Location = new System.Drawing.Point(167, 281);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(76, 20);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "Artist Name";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 387);
+            this.button1.Location = new System.Drawing.Point(51, 314);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.Size = new System.Drawing.Size(75, 19);
             this.button1.TabIndex = 10;
             this.button1.Text = "Buy tickets";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(223, 387);
+            this.button2.Location = new System.Drawing.Point(167, 314);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 23);
+            this.button2.Size = new System.Drawing.Size(75, 19);
             this.button2.TabIndex = 11;
             this.button2.Text = "Buy tickets";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(223, 640);
+            this.button3.Location = new System.Drawing.Point(167, 520);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 23);
+            this.button3.Size = new System.Drawing.Size(75, 19);
             this.button3.TabIndex = 17;
             this.button3.Text = "Buy tickets";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(68, 640);
+            this.button4.Location = new System.Drawing.Point(51, 520);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
+            this.button4.Size = new System.Drawing.Size(75, 19);
             this.button4.TabIndex = 16;
             this.button4.Text = "Buy tickets";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(223, 599);
+            this.textBox4.Location = new System.Drawing.Point(167, 487);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.Size = new System.Drawing.Size(76, 20);
             this.textBox4.TabIndex = 15;
             this.textBox4.Text = "Artist Name";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(68, 599);
+            this.textBox5.Location = new System.Drawing.Point(51, 487);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.Size = new System.Drawing.Size(76, 20);
             this.textBox5.TabIndex = 14;
             this.textBox5.Text = "Artist Name";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(223, 439);
+            this.pictureBox5.Location = new System.Drawing.Point(167, 357);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 140);
+            this.pictureBox5.Size = new System.Drawing.Size(75, 114);
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(68, 439);
+            this.pictureBox6.Location = new System.Drawing.Point(51, 357);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 140);
+            this.pictureBox6.Size = new System.Drawing.Size(75, 114);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 690);
+            this.ClientSize = new System.Drawing.Size(309, 561);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox4);
@@ -221,6 +238,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3";
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

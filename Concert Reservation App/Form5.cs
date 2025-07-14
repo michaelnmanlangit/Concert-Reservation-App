@@ -16,5 +16,10 @@ namespace Concert_Reservation_App
         {
             InitializeComponent();
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

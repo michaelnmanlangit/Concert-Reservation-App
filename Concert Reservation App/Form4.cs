@@ -16,5 +16,10 @@ namespace Concert_Reservation_App
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

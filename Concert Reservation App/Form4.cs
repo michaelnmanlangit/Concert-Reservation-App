@@ -21,5 +21,15 @@ namespace Concert_Reservation_App
         {
 
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPlace_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

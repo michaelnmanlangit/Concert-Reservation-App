@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Concert_Reservation_App
 {
-    public partial class Form2 : Form
+    public partial class Form2: Form
     {
         public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void label2Form1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnSelectSeat = new System.Windows.Forms.Button();
+            this.artistName_lbl = new System.Windows.Forms.Label();
+            this.dnt_lbl = new System.Windows.Forms.Label();
+            this.venue_lbl = new System.Windows.Forms.Label();
+            this.blockSeat_lbl = new System.Windows.Forms.Label();
+            this.price_lbl = new System.Windows.Forms.Label();
+            this.btnProceedPayment = new System.Windows.Forms.Button();
             this.btnBackF7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,73 +54,77 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(69, 155);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(76, 152);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(282, 253);
+            this.pictureBox1.Size = new System.Drawing.Size(260, 257);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label2
+            // artistName_lbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(167, 428);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Artist Name";
+            this.artistName_lbl.AutoSize = true;
+            this.artistName_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.artistName_lbl.Location = new System.Drawing.Point(167, 428);
+            this.artistName_lbl.Name = "artistName_lbl";
+            this.artistName_lbl.Size = new System.Drawing.Size(98, 20);
+            this.artistName_lbl.TabIndex = 2;
+            this.artistName_lbl.Text = "Artist Name";
             // 
-            // label3
+            // dnt_lbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(156, 457);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Date and Time";
+            this.dnt_lbl.AutoSize = true;
+            this.dnt_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dnt_lbl.Location = new System.Drawing.Point(156, 457);
+            this.dnt_lbl.Name = "dnt_lbl";
+            this.dnt_lbl.Size = new System.Drawing.Size(119, 20);
+            this.dnt_lbl.TabIndex = 3;
+            this.dnt_lbl.Text = "Date and Time";
             // 
-            // label4
+            // venue_lbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(183, 486);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 20);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Venue";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.venue_lbl.AutoSize = true;
+            this.venue_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.venue_lbl.Location = new System.Drawing.Point(183, 486);
+            this.venue_lbl.Name = "venue_lbl";
+            this.venue_lbl.Size = new System.Drawing.Size(56, 20);
+            this.venue_lbl.TabIndex = 4;
+            this.venue_lbl.Text = "Venue";
+            this.venue_lbl.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label5
+            // blockSeat_lbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(132, 515);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Block and Seat No.";
+            this.blockSeat_lbl.AutoSize = true;
+            this.blockSeat_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blockSeat_lbl.Location = new System.Drawing.Point(132, 515);
+            this.blockSeat_lbl.Name = "blockSeat_lbl";
+            this.blockSeat_lbl.Size = new System.Drawing.Size(152, 20);
+            this.blockSeat_lbl.TabIndex = 5;
+            this.blockSeat_lbl.Text = "Block and Seat No.";
             // 
-            // label6
+            // price_lbl
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(183, 546);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Price";
+            this.price_lbl.AutoSize = true;
+            this.price_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price_lbl.Location = new System.Drawing.Point(183, 546);
+            this.price_lbl.Name = "price_lbl";
+            this.price_lbl.Size = new System.Drawing.Size(48, 20);
+            this.price_lbl.TabIndex = 6;
+            this.price_lbl.Text = "Price";
             // 
-            // btnSelectSeat
+            // btnProceedPayment
             // 
-            this.btnSelectSeat.Location = new System.Drawing.Point(87, 593);
-            this.btnSelectSeat.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSelectSeat.Name = "btnSelectSeat";
-            this.btnSelectSeat.Size = new System.Drawing.Size(264, 46);
-            this.btnSelectSeat.TabIndex = 8;
-            this.btnSelectSeat.Text = "PROCEED TO PAYMENT";
-            this.btnSelectSeat.UseVisualStyleBackColor = true;
+            this.btnProceedPayment.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnProceedPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProceedPayment.Location = new System.Drawing.Point(76, 593);
+            this.btnProceedPayment.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProceedPayment.Name = "btnProceedPayment";
+            this.btnProceedPayment.Size = new System.Drawing.Size(260, 46);
+            this.btnProceedPayment.TabIndex = 8;
+            this.btnProceedPayment.Text = "PROCEED TO PAYMENT";
+            this.btnProceedPayment.UseVisualStyleBackColor = false;
             // 
             // btnBackF7
             // 
@@ -136,12 +141,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 690);
             this.Controls.Add(this.btnBackF7);
-            this.Controls.Add(this.btnSelectSeat);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnProceedPayment);
+            this.Controls.Add(this.price_lbl);
+            this.Controls.Add(this.blockSeat_lbl);
+            this.Controls.Add(this.venue_lbl);
+            this.Controls.Add(this.dnt_lbl);
+            this.Controls.Add(this.artistName_lbl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -157,12 +162,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnSelectSeat;
+        private System.Windows.Forms.Label artistName_lbl;
+        private System.Windows.Forms.Label dnt_lbl;
+        private System.Windows.Forms.Label venue_lbl;
+        private System.Windows.Forms.Label blockSeat_lbl;
+        private System.Windows.Forms.Label price_lbl;
+        private System.Windows.Forms.Button btnProceedPayment;
         private System.Windows.Forms.Button btnBackF7;
     }
 }

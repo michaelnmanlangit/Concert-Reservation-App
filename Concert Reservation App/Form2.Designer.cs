@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1Form1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.label2Form1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,16 +43,6 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label1Form1
-            // 
-            this.label1Form1.AutoSize = true;
-            this.label1Form1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1Form1.Location = new System.Drawing.Point(131, 106);
-            this.label1Form1.Name = "label1Form1";
-            this.label1Form1.Size = new System.Drawing.Size(165, 32);
-            this.label1Form1.TabIndex = 5;
-            this.label1Form1.Text = "REGISTER";
             // 
             // label2Form1
             // 
@@ -172,6 +162,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(412, 690);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnLogin);
@@ -186,7 +178,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2Form1);
-            this.Controls.Add(this.label1Form1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
@@ -196,8 +187,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1Form1;
         private System.Windows.Forms.Label label2Form1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

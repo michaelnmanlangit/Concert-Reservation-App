@@ -45,7 +45,7 @@
             this.lblArtistName.BackColor = System.Drawing.Color.Transparent;
             this.lblArtistName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblArtistName.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblArtistName.Location = new System.Drawing.Point(64, 47);
+            this.lblArtistName.Location = new System.Drawing.Point(64, 65);
             this.lblArtistName.Name = "lblArtistName";
             this.lblArtistName.Size = new System.Drawing.Size(165, 25);
             this.lblArtistName.TabIndex = 0;
@@ -65,7 +65,7 @@
             this.lblDate.BackColor = System.Drawing.Color.Transparent;
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblDate.Location = new System.Drawing.Point(104, 90);
+            this.lblDate.Location = new System.Drawing.Point(104, 108);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(83, 13);
             this.lblDate.TabIndex = 2;
@@ -77,7 +77,7 @@
             this.lblTime.BackColor = System.Drawing.Color.Transparent;
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTime.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblTime.Location = new System.Drawing.Point(118, 115);
+            this.lblTime.Location = new System.Drawing.Point(118, 133);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(54, 13);
             this.lblTime.TabIndex = 3;
@@ -89,7 +89,7 @@
             this.lblPlace.BackColor = System.Drawing.Color.Transparent;
             this.lblPlace.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlace.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblPlace.Location = new System.Drawing.Point(105, 138);
+            this.lblPlace.Location = new System.Drawing.Point(105, 156);
             this.lblPlace.Name = "lblPlace";
             this.lblPlace.Size = new System.Drawing.Size(80, 13);
             this.lblPlace.TabIndex = 4;
@@ -119,6 +119,8 @@
             // 
             // btnSelectSeat
             // 
+            this.btnSelectSeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectSeat.ForeColor = System.Drawing.Color.Purple;
             this.btnSelectSeat.Location = new System.Drawing.Point(55, 470);
             this.btnSelectSeat.Name = "btnSelectSeat";
             this.btnSelectSeat.Size = new System.Drawing.Size(198, 37);

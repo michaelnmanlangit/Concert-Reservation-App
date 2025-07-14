@@ -116,7 +116,7 @@
             // 
             // btnProceedPayment
             // 
-            this.btnProceedPayment.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnProceedPayment.BackColor = System.Drawing.SystemColors.Control;
             this.btnProceedPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProceedPayment.Location = new System.Drawing.Point(76, 593);
             this.btnProceedPayment.Margin = new System.Windows.Forms.Padding(4);
@@ -139,6 +139,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(412, 690);
             this.Controls.Add(this.btnBackF7);
             this.Controls.Add(this.btnProceedPayment);

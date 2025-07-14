@@ -46,5 +46,10 @@ namespace Concert_Reservation_App
         {
 
         }
+
+        private void label1Form1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
